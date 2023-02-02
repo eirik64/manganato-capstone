@@ -60,7 +60,7 @@ export default function Menu() {
     return (
         <div className="menu">
             <div className="logo">
-                <a className="horizontal_logo" href={process.env.PUBLIC_URL}>
+                <a className="horizontal_logo" href={process.env.PUBLIC_URL + 'App'}>
                     <embed className="M" type={"image/png"} src={"img/icons/manganato_logo.png"}/>
                         <div className="Manga"><h1>Manga</h1></div>
                         <div className="Nato"><h1>Nato</h1></div>
@@ -70,7 +70,7 @@ export default function Menu() {
             <div className="menu_bar">
                 <div className="border_box">
                     <ul className="horizontal">
-                        <li key={'0'}><a id="Home" href={process.env.PUBLIC_URL}>Home</a></li>
+                        <li key={'0'}><a id="Home" href={process.env.PUBLIC_URL + "App"}>Home</a></li>
                         <li key={'1'}><a id="Recent" href={process.env.PUBLIC_URL + "Trending"}>Recently Updated</a></li>
                         <li key={'2'}><a id="Trending" href={process.env.PUBLIC_URL + "Trending"}>Trending</a></li>
                     </ul>
