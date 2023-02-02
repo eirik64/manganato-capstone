@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/manganato-capstone/static/css/main.e3244b73.css",
-    "main.js": "/manganato-capstone/static/js/main.d9f191f9.js",
+    "main.js": "/manganato-capstone/static/js/main.0052c6b5.js",
     "static/js/787.71e672d5.chunk.js": "/manganato-capstone/static/js/787.71e672d5.chunk.js",
     "index.html": "/manganato-capstone/index.html",
     "main.e3244b73.css.map": "/manganato-capstone/static/css/main.e3244b73.css.map",
-    "main.d9f191f9.js.map": "/manganato-capstone/static/js/main.d9f191f9.js.map",
+    "main.0052c6b5.js.map": "/manganato-capstone/static/js/main.0052c6b5.js.map",
     "787.71e672d5.chunk.js.map": "/manganato-capstone/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3244b73.css",
-    "static/js/main.d9f191f9.js"
+    "static/js/main.0052c6b5.js"
   ]
 }
