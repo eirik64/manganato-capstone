@@ -1,0 +1,20 @@
+h1 {
+  font-weight: 400;
+  font-size: max(25px, 4vw);
+  font-family: 'Patrick Hand', serif;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: max(17px, 2vw);
+  font-family: 'Patrick Hand', serif;
+  margin-block-start: 1vh;
+  margin-block-end: 1vh;
+}
+
+p {
+  font-size: max(12px, 1.4vw);
+  font-family: 'Patrick Hand', serif;
+  margin-block-start: .75vh;
+  margin-block-end: .75vh;
+}

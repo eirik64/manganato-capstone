@@ -1,0 +1,161 @@
+/* TOP CHAPTERS */
+.body {
+  padding-left: 5vw;
+  padding-top: 2vh;
+}
+
+.Top_Chapters_Box {
+  width: 30vw;
+  min-width: max-content;
+  height: 5vh;
+  /* Pochita */
+  background: #FF6150;
+  /* Aqua */
+  border: 5px solid #54D2D2;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#trending_tag {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.Top_Chapters {
+  color: #FFFFFF;
+}
+
+.Search {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3vh;
+  padding-right: 4.7vw;
+}
+
+.positioning_search {
+  display: flex;
+  justify-content: center;
+}
+
+.Search_Bar_Box {
+  width: 60vw;
+  height: 5vh;
+
+  /* Aqua01 */
+  background: #DDF6F6;
+  /* Navy */
+  border: 1px solid #072448;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.search_icon {
+  padding-left: 1vw;
+  padding-top: .5vh;
+  width: 2.5vw;
+  height: 3.8vh;
+}
+
+.Search_Manga_box {
+  display: flex;
+  align-items: center;
+}
+
+#search_input {
+  background-color: #DDF6F6;
+  height: 5vh;
+  width: 30vw;
+  border: 0 ;
+  font-size: 2.4vmin;
+  font-family: 'Patrick Hand', serif;
+}
+
+.positioning_filter {
+  display: flex;
+  justify-content: center;
+  padding-top: 2vh;
+}
+
+.filter_box {
+  /* Aqua01 */
+  background: #DDF6F6;
+  border: 1px solid #072448;
+  color: #072448;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  transition: background .5s, border .5s, color .5s;
+}
+
+.filter_box:hover {
+  background: #072448;
+  border: 1px solid #DDF6F6;
+  color: white;
+}
+
+#Funnel {
+  width: 2vw;
+  height: 4vh;
+  padding-right: 1vw;
+  padding-left: .5vw;
+}
+
+#Down-Arrow {
+  width: 2vw;
+  height: 2vh;
+  padding-left: 1vw;
+  padding-right: .5vw;
+}
+
+.Latest {
+  display: flex;
+  flex-direction: column;
+}
+
+.latest_updates_box {
+  /* Pochita */
+  background: #FF6150;
+  /* Aqua */
+  border: 5px solid #54D2D2;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  width: 25vw;
+  min-width: max-content;
+  height: 5vh;
+}
+
+#latest-update-text {
+  color: #FFFFFF;
+}
+
+#recent_tag {
+  text-decoration: none;
+}
+
+#more_btn {
+  background-color: #DDF6F6;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-bottom: 2vh;
+  color: #072448;
+  border-radius: 10px;
+  transition: color .5s, background-color .5s;
+  font-size: 2.4vmin;
+  font-family: 'Patrick Hand', serif;
+}
+
+#more_btn:hover {
+  background-color: #072448;
+  color: #DDF6F6;
+  cursor: pointer;
+}
